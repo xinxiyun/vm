@@ -2,7 +2,10 @@
 # shellcheck disable=2034,2059
 true
 # shellcheck source=lib.sh
-NCDB=1 && NC_UPDATE=1 . <(curl -sL https://raw.githubusercontent.com/nextcloud/vm/master/lib.sh)
+NCDB=1 && NC_UPDATE=1 . <(curl -sL https://raw.githubusercontent.com/zcsgl/nextcloudvm/master/lib.sh)
+NCREPO="https://download.nextcloud.com/server/prereleases"
+NCVERSION=13.0.8
+STABLEVERSION="nextcloud-$NCVERSION"
 unset NC_UPDATE
 unset NCDB
 
