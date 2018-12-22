@@ -31,12 +31,12 @@ GATEWAY=$(ip route | grep default | awk '{print $3}')
 DNS1="9.9.9.9"
 DNS2="149.112.112.112"
 # Repo
-GITHUB_REPO="https://raw.githubusercontent.com/nextcloud/vm/master"
+GITHUB_REPO="https://github.com/zcsgl/nextcloudvm/master"
 STATIC="$GITHUB_REPO/static"
 LETS_ENC="$GITHUB_REPO/lets-encrypt"
 APP="$GITHUB_REPO/apps"
 NCREPO="https://download.nextcloud.com/server/releases"
-ISSUES="https://github.com/nextcloud/vm/issues"
+ISSUES="https://github.com/zcsgl/nextcloudvm/issues"
 # User information
 NCPASS=nextcloud
 NCUSER=ncadmin
