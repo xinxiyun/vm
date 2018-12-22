@@ -58,7 +58,7 @@ debug_mode
 root_check
 
 # Set locales
-install_if_not language-pack-en-base
+install_if_not language-pack-zh-hans
 sudo locale-gen "zh_CN.UTF-8" && sudo dpkg-reconfigure --frontend=noninteractive locales
 
 # Test RAM size (2GB min) + CPUs (min 1)
