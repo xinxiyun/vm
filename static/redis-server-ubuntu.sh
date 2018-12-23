@@ -2,7 +2,7 @@
 # shellcheck disable=2034,2059
 true
 # shellcheck source=lib.sh
-. <(curl -sL https://raw.githubusercontent.com/zcsgl/nextcloudvm/master/lib.sh)
+. <(curl -sL https://raw.githubusercontent.com/xinxiyun/vm/master/lib.sh)
 
 # T&M Hansson IT AB © - 2018, https://www.hanssonit.se/
 

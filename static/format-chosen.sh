@@ -5,7 +5,7 @@
 # shellcheck disable=2034,2059
 true
 # shellcheck source=lib.sh
-. <(curl -sL https://raw.githubusercontent.com/zcsgl/nextcloudvm/master/lib.sh)
+. <(curl -sL https://raw.githubusercontent.com/xinxiyun/vm/master/lib.sh)
 
 # Check if root
 root_check

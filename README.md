@@ -46,7 +46,7 @@ The script will mount and format the drive. Please select Manually Format & Moun
 
 #### Installation
 1. Get the latest install script from master and install it with a sudo user:<br>
-`sudo bash -c "$(wget -q -O - https://raw.githubusercontent.com/zcsgl/nextcloudvm/master/nextcloud_install_production.sh)"`
+`sudo bash -c "$(wget -q -O - https://raw.githubusercontent.com/xinxiyun/vm/master/nextcloud_install_production.sh)"`
 2. When the VM is installed it will automatically reboot. Remember to login with the user you created:<br>
 `ssh <user>@IP-ADDRESS`<br>
 If it automatically runs as root when you reboot the machine, you have to abort it by pressing `CTRL+C` and run the script as the user you just created:<br>
@@ -159,7 +159,7 @@ Keep asking questions so that we can add them here.
 **Q: How to install apps if not selected during first install?**
 <br />
 **A:** Go to the apps folder in this repo and download the script in raw format and run them. For installing Talk:
-`wget https://raw.githubusercontent.com/zcsgl/nextcloudvm/master/apps/talk.sh && sudo bash talk.sh`
+`wget https://raw.githubusercontent.com/xinxiyun/vm/master/apps/talk.sh && sudo bash talk.sh`
 
 **Q: How to continue from partially installed system? - You got the FQDN wrong/You put in a bad password/ etc...**
 <br />

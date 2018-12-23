@@ -5,7 +5,7 @@
 # shellcheck disable=2034,2059
 true
 # shellcheck source=lib.sh
-FIRST_IFACE=1 . <(curl -sL https://raw.githubusercontent.com/zcsgl/nextcloudvm/master/lib.sh)
+FIRST_IFACE=1 . <(curl -sL https://raw.githubusercontent.com/xinxiyun/vm/master/lib.sh)
 unset FIRST_IFACE
 
 # Check for errors + debug code and abort if something isn't right

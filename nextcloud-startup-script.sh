@@ -2,7 +2,7 @@
 # shellcheck disable=2034,2059
 true
 # shellcheck source=lib.sh
-NCDB=1 && FIRST_IFACE=1 && CHECK_CURRENT_REPO=1 . <(curl -sL https://raw.githubusercontent.com/zcsgl/nextcloudvm/master/lib.sh)
+NCDB=1 && FIRST_IFACE=1 && CHECK_CURRENT_REPO=1 . <(curl -sL https://raw.githubusercontent.com/xinxiyun/vm/master/lib.sh)
 unset FIRST_IFACE
 unset CHECK_CURRENT_REPO
 unset NCDB
@@ -171,7 +171,7 @@ Please also post this issue on: https://github.com/nextcloud/vm/issues"
 fi
 
 # shellcheck source=lib.sh
-NCDB=1 && CHECK_CURRENT_REPO=1 && NC_UPDATE=1 . <(curl -sL https://raw.githubusercontent.com/zcsgl/nextcloudvm/master/lib.sh)
+NCDB=1 && CHECK_CURRENT_REPO=1 && NC_UPDATE=1 . <(curl -sL https://raw.githubusercontent.com/xinxiyun/vm/master/lib.sh)
 unset NC_UPDATE
 unset CHECK_CURRENT_REPO
 unset NCDB
